@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .btn{
+        @apply bg-blue-500 p-3 text-white capitalize cursor-pointer font-bold my-4 rounded-full
+    }
+    .input {
+        @apply p-4 shadow-lg border-none outline-none w-full mb-3
+    }
+}
